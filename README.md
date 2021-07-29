@@ -33,6 +33,7 @@ After fitting the model, i got high accuracy of models.But is the model good for
 We can see that dependent feature our data set is highly imbalance.
 
 ![download](https://user-images.githubusercontent.com/78952426/127499316-c9c3bb9b-96e7-4168-8904-c404d01134de.png)
+
  When a classifier is trained on a highly imbalance dataset,it has a tendency to pick the patterns in the most popular class and ignore the rest.
  
  For this dataset,99.9% of the data are labelled as 'Not Fraud' and rest are 'Fraud'. So,even if a model classifies everything that it is as 'Not Fraud',the accuracy is going to be high but the model is not good because it is not classifying any of the transaction as 'Fraud'.So,even if model has high accuracy, it is completely useless.
