@@ -31,6 +31,7 @@ After fitting the model, i got high accuracy of models.But is the model good for
 ## Imbalance dataset-
 
 We can see that dependent feature our data set is highly imbalance.
+
 ![download](https://user-images.githubusercontent.com/78952426/127499316-c9c3bb9b-96e7-4168-8904-c404d01134de.png)
  When a classifier is trained on a highly imbalance dataset,it has a tendency to pick the patterns in the most popular class and ignore the rest.
  
